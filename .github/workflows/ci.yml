@@ -1,8 +1,8 @@
 name: Test and build
 
+# Manual execution only: avoid billing-blocked runners on every push or PR.
+# Run from GitHub > Actions > Test and build > Run workflow after billing is fixed.
 on:
-  push:
-  pull_request:
   workflow_dispatch:
 
 jobs:
