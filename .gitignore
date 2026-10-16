@@ -1,0 +1,31 @@
+# Python caches and bytecode
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Build products
+build/
+dist/
+*.spec
+*.exe
+
+# Environment and editor
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+
+# Windows / macOS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Local data and accidental exports
+preferences.json
+snippets.json
+history.json
